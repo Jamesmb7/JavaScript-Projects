@@ -7,10 +7,10 @@ This will contain files and projects from the JavaScript Course.
 - [future project2]()
 - [future project3]()
 
-**Future Project 1**
+**Future Project 1:**
 
-**Future Project 2**
+**Future Project 2:**
 
-**Future Project 3**
+**Future Project 3:**
 
 Etc.
