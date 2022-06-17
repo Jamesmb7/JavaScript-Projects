@@ -11,6 +11,6 @@ This will contain files and projects from the JavaScript Course.
 
 **Future Project 2**
 
-Future Project 3**
+**Future Project 3**
 
 Etc.
