@@ -1,11 +1,11 @@
 # JavaScript-Projects
-This will contain files and projects from the HTML and CSS Course
+This will contain files and projects from the JavaScript Course.
 
 **Projects**:
 
 - [future project1]()
 - [future project2]()
-- [uture project3]()
+- [future project3]()
 
 **Future Project1**
 
