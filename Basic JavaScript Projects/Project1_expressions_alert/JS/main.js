@@ -17,3 +17,6 @@ document.write(D); //This calls variable D
 document.write(E); //This calls variable E
 document.write(Dad); //This calls variable Dad
 document.write(Mom+Son);   //This calls variable Mom and Son
+
+/** Function **/
+
