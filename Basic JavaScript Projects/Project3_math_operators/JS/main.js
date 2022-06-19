@@ -9,7 +9,8 @@ function Math_addition()
    // var question="What is 2+2?"
    // document.getElementById("Math").innerHTML = question;
 //}
-    //how would I make this work in js?
+    //how would I make this work in js? Think I could do this in css but not
+    //sure how with js yet. 
 
 function Subtraction() //subtraction function
 {
