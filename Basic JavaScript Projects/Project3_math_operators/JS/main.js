@@ -62,10 +62,15 @@ function random_Number()
 
 var B = 10;
 B++;
-B--;
-document.write(B); //why doesn't this work if I add var A below this and do the same?
+document.write(B);
+document.write("<br>");
+var A = 5;
+A--;
+document.write(A);
 
-window.alert (Math.random() * 100); // displays a random number between 0 and 99 as an alert when opening the webpage
+
+
+window.alert (Math.floor(Math.random() * 100)); // displays a random number between 0 and 99 as an alert when opening the webpage
 // How do I make this an integer? ^
 
 //I'm expecting to make a call Monday to go over all of this in more detail due to my 
