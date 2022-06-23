@@ -22,9 +22,33 @@ function upper_Case() //name/title for the below code
 }
 
 
-function search_Method()
+function search_Method() //tells you the location of the specified search work. 
 {
     var Sentence = "Take pride in your work!";
     var Section = Sentence.search("in");
     document.getElementById("searching").innerHTML=Section;
+}
+
+function numbers_Method()//returns the var number.
+{
+    var A = 125;
+    document.getElementById("numbers_String").innerHTML = A.toString();
+}
+
+function precision_Click()//Returns a precise number depending onthe set amount (8 positions in this instance)
+{
+var B = 135682.039482711;
+    document.getElementById("Precision").innerHTML = B.toPrecision(8);
+}
+
+function valueOf_Method() //Don't fully understand the purpose of this yet.
+{
+    var C = "How is everyone doing today?"
+    document.getElementById("value").innerHTML = C.valueOf();
+}
+
+function toFixed_Method() //Sets a fixed number? Rounds to the specified decimal. (2 would be 5.59)?
+{
+    var D = 5.58773
+    document.getElementById("fixed").innerHTML = D.toFixed(2);
 }
