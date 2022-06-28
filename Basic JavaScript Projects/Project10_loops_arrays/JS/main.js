@@ -72,15 +72,38 @@ function myFunctions() //How can you do this without an onclick element in html?
 }
 
 
-let house =
+let house =//House Object in JS//
 {
     type:"Wooden",
     year:"1950",
     color:"tan",
     description : function()
     {
-        return "The house is " +this.type + "." + " It was built in " + this.year + 
-        " and is " +this.color + ".";
+        return "The house is " + this.type + "." + " It was built in " + this.year + 
+        " and is " + this.color + ".";
     }
 }
 document.getElementById("Object").innerHTML=house.description();
+
+function the_Break() //will break the loop when i = 3 leaving 0, 1, 2//
+{
+    let text=""
+    for (let i = 0; i < 10; i++)
+    {
+        if (i === 3) {break;}
+        text +="The number is " + i + "." + "<br>";
+    }
+    document.getElementById("Breaks").innerHTML = text;
+}
+
+
+function the_Continue() //breaks the loop and then continues with the next step after that break, in this instance the break is at 3. 
+{
+    let text=""
+    for (let i = 0; i < 10; i++)
+    {
+        if (i === 3) {continue}
+        text += "The number is " + i + "." + "<br>";
+    }
+    document.getElementById("Continues").innerHTML = text;
+}
