@@ -1,0 +1,40 @@
+input[type=text]
+{
+    width:100%;
+    padding:12px;
+    border-radius: 4px;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom:16px;
+    box-sizing: border-box;
+    font-size:15px;
+    
+}
+
+input[type=submit]
+{
+    background-color:rgba(0,0,0,0.8);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    color:white;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.column1
+{
+    width:800px;
+    background-color: rgba(36, 66, 196, 0.5);
+    height:400px;
+    padding:10px;
+    
+
+}
+
+form
+{
+    padding:15px;
+}
