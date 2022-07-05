@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Arrow Function</title>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <p id="Arrow" onclick="myFunction()">Arrow =</p>
+        <script>
+            myFunction = function()
+            {
+               document.getElementById("Arrow").innerHTML= "Arrow Function";
+            }
+        </script>
+        <br>
+        <br>
+        <p id="Arrows" onclick="myFunction1()">Arrows = ?</p>
+        <script>
+            myFunction1 = () =>
+            {
+                document.getElementById("Arrows").innerHTML= "Arrow Functions"
+            }  
+        </script>
+    </body>
+</html>
