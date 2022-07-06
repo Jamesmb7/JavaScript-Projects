@@ -1,0 +1,93 @@
+body
+{
+    background-color:rgb(206, 91, 14);
+}
+
+h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    text-align: center;
+}
+
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+}
+
+div
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightgray;
+}
+
+
+
+
+
+
+#menuBG /* why the #? ID instead of class. */
+{
+    width:400px;
+    height:470px;
+    margin:10px auto;
+}
+
+#frmMenu
+{
+    width:600px;
+    height:200px;
+}
+
+#totalPrice
+{
+    width:200px;
+    height:190px;
+    margin:0 auto;
+    float:right;
+}
+
+.left
+{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.middle
+{
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.right
+{
+    width:200px;
+    height:200px;
+    float:right;
+}
+
+#showText
+{
+    width:200px;
+    height:190px;
+    margin:0px auto;
+    float:left;
+}
+
+#cart
+{
+    top:0;margin:0px auto; /* why is this not on 2 dif. lines?*/
+    width:400px;
+    height:200px;
+}
+
+#btnOrder
+{
+    width:100px;
+    height:40px;
+    margin: 25px auto;
+    display:block;  
+}
