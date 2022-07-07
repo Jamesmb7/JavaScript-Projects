@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> </script>
+    </head>
+    <body>
+
+    </body>
+    <script>//using jQuery to target the html element and creates a body portion with containers and paragraphs in a function. //
+        $(document).ready(function()
+        {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                <body>"
+            );
+            $("#2").css({"color": "red"}); //Targets paragraph ID (#) number 2 and changes it's color to red.//
+            $("#3").click(function() //Targets paragraph ID (#) number 3 and when clicked runs a function to hide the <h1> element. 
+            {
+                $('h1') .hide();
+            });
+            //jQuery Event Basics - console.log message from clicking p id=1// 
+            $( "#1" ).click(function() 
+            {
+            console.log( "You clicked a paragraph!" );
+            });
+            //Show h1 if clicking p id=2//
+            $("#2").click(function()
+            {
+                $('h1') .show();
+            });
+
+        });
+
+
+        
+
+
+    </script>
+</html>
