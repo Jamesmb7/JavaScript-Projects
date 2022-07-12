@@ -6,6 +6,20 @@
         <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
         <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="./JS/React_3.js" defer></script>
+        <style>
+            body
+            {
+                opacity: 1;
+                transition: 2s opacity;
+            }
+
+            body.fade-out
+            {
+                opacity: 0;
+                transition: none;
+            }
+        </style>
     </head>
     <body>
         <div id="JSX"></div>
@@ -21,5 +35,42 @@
 
             ReactDOM.render(<Greeting />, document.getElementById("JSX"))
         </script>
+
+        <p style="font-size:4vw;">This is 4vw font size!</p> <!-- Setting a viewport width(vw) causing the text to folow the size of the browser window-->
+
+        <p> I wonder if this will fade! </p>
+
+        <script>
+            document.body.classList.add('fade-out');
+        </script>
+
+        <div class="column1">
+            <form name = "myForm" action="" onsubmit="return validateForm()" method="POST">
+            <label>Phone Number:</label>
+            <input type="text" name="pnumber" placeholder="Enter your phone number"><br>
+            <input type="Submit" value="submit">
+            </form>
+        </div>
+
+        <div class="form-popup" id="myForms">
+            <form action="/action_page.php" class="form-container">
+                <h1> Login </h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label for="p#"><b>Phone Number</b></label>
+                <input type="text" placeholder="Enter Phone Number" name="pnumber" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        
+
+        
     </body>
 </html>
