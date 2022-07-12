@@ -1,0 +1,42 @@
+.open-button 
+{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: sticky;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+
+.button
+{   
+    padding: 1px 1px;
+    border: 2px solid rgba(0,0,0,0.6);
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 115px;
+    right: 28px;
+    width: 280px;
+    border-radius: 3px;
+}
+
+
+
+
+.form-popup
+{
+    display: none;
+    position: fixed;
+    bottom:5px;
+    right:15px;
+    border: 3px solid rgba(0,0,0,0.8);
+    z-index: 9;
+    border-radius: 3px;
+}
+
