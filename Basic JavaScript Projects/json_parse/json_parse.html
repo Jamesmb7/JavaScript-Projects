@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>json.stringify() assignment</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/">
+        <script src="./JS/"></script>
+    </head>
+    <body>
+        <p id="myDog"></p>
+        <script>
+            /*This is a JSON String Variable*/
+            var dog = '{"name": "Judge", "weight": "13 Pounds", "color": "brown and white", "breed": "boxer"}';
+            /*Convert JSON strings to JS Objects*/
+            var JSONstring = JSON.parse(dog);
+            document.getElementById("myDog").innerHTML = JSONstring.name + " the " + JSONstring.color + " " + JSONstring.breed + ".";
+        </script>
+    </body>
+</html>
