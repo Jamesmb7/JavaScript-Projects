@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>json.stringify() assignment</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/">
+        <script src="./JS/"></script>
+    </head>
+    <body>
+        <p id="myCat"></p>
+        <script>
+            /*set the data as a key/value pair to be saved locally in your browser*/
+            localStorage.setItem("Name", "Obi");
+            /*then use the key "Name" to return its value "Obi"*/
+            document.getElementById("myCat").innerHTML = localStorage.getItem("Name");
+        </script>
+    </body>
+</html>
