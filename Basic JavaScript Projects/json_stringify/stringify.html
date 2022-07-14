@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>json.stringify() assignment</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/">
+        <script src="./JS/"></script>
+    </head>
+    <body>
+        <p id="myCat"></p>
+        <script>
+            /*JS Dictionary Object*/
+            var cat = {name: "Obi", weight: "13 pounds", color: "Black"};
+
+            /*convert JS objects to string format*/
+            var JSONstring = JSON.stringify(cat);
+            document.getElementById("myCat").innerHTML = JSONstring;
+        </script>
+    </body>
+</html>
