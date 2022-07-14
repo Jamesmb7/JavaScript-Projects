@@ -1,7 +1,7 @@
 /* this function gets the task from input*/
 function get_todos()
 {
-    /*this creates an array of tasks that are inputed*/
+    /*this creates an array of tasks that are inputed.*/
     var todos = new Array;
     /*this pulls the task that was saved in the web browser memory*/
     var todos_str = localStorage.getItem('todo');
@@ -41,7 +41,7 @@ function show()
     var html = '<ul>';
 
     /*This tells the browser how to display the todo array after an item has been removed*/
-    var buttons = document.getElementsByClassName('remove');
+
 
     /*This displays a task to the list in the order that it is inputed */
     for (var i = 0; i < todos.length; i++)
@@ -50,13 +50,15 @@ function show()
         html += '<li>' + todos[i] + '<button class="remove" id="' + i + '">x</button></li>';
         
     };
-    for (var i = 0; i < buttons.length; i++)
-    {
-            buttons[i].addEventListener('click', remove);
-    };
+    
     html += '</ul>';
     /*This displays the task as a list*/
     document.getElementById('todos').innerHTML = html;
+    var buttons = document.getElementsByClassName('remove');
+    for (var i = 0; i < buttons.length; i++)
+    {
+            buttons[i].addEventListener('click', remove());
+    };
 }
 
 /*This displays the inputed task when the 'Add Item' button is clicked */
